@@ -12,8 +12,8 @@ output "current_user_info" {
   }
 }
 
-output "databricks_spark_version" {
-  value = {
-    version = data.databricks_spark_version.latest.spark_version
-  }
-}
+# output "databricks_spark_version" {
+#   value = {
+#     version = data.databricks_spark_version.latest.spark_version
+#   }
+# }
